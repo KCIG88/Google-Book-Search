@@ -1,0 +1,42 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif !important;
+    background-color: #FCA311;
+    color:#b6b6b6 !important;
+}
+
+.btn {
+    box-shadow: none !important; /* Removes blue halo */
+    border: none !important;
+}
+
+.btn:hover {
+    box-shadow: none !important; /* Removes blue halo */
+    border: none !important;
+}
+
+.form-control {
+    box-shadow: none !important; /* Removes blue halo */
+    border: none !important;
+}
+
+.FormBtn {
+    box-shadow: none !important; /* Removes blue halo */
+}
+
+.btn:focus {
+    background-color: #fff !important;
+    color: #121212 !important;
+    cursor: pointer !important;
+}
+
+h2.title {
+    color: black;
+}
+
+h5.authors {
+    color: black
+}
+
+.jumbotron {
+background-image: url("https://www.statsandr.com/blog/2020-04-26-a-package-to-download-free-springer-books-during-covid-19-quarantine_files/A%20package%20to%20download%20free%20Springer%20books%20during%20Covid-19%20quarantine.jpeg");
+}

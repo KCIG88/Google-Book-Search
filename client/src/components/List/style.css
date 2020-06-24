@@ -1,9 +1,14 @@
 .list-overflow-container {
   max-height: 545px;
-  border: 1px #DDDDDD solid;
+  border: 1px #ddd solid;
   border-radius: 4px;
   overflow-y: scroll;
   overflow-x: hidden;
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  
 }
 
 .list-overflow-container ul {
@@ -14,14 +19,16 @@
   border-radius: 0px;
   border-left: none;
   border-right: none;
+  padding-bottom: 50px;
+  padding-top: 30px;
 }
 
 .list-overflow-container li * {
-  cursor: pointer;
+  margin: 0;
 }
 
 .list-overflow-container li a {
-  color: #2A878C;
+  color: white;
 }
 
 .list-overflow-container li:first-child {
@@ -30,4 +37,8 @@
 
 .list-overflow-container li:last-child {
   border-bottom: none;
+}
+
+.image-description {
+  padding-top: 30px;  
 }
